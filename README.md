@@ -7,7 +7,7 @@ Tries not to retest what has already been tested.
 2. Change your directory to `conjecture-tester` with `cd conjecture-tester`
 3. Read the comments in brute-force-math.cpp, and edit the source code as instructed.
 4. Compile with `g++ -std=c++17 -Wall -Wextra brute-force-math.cpp -o brute-force-math`
-5. Run with ./brute-force-math
+5. Run with `./brute-force-math`
 
 ## Warning:
 This program is intentionally stupid.
