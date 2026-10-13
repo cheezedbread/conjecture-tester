@@ -11,7 +11,7 @@ Tries not to retest what has already been tested.
 
 ## Warning:
 This program uses a deliberately straightforward brute-force approach and is not designed for computational efficiency.<br>
-At the default settings, stage 8 alone checks about **10 nonillion numbers (2 × 10^31)** with **zero multithreading, SIMD/AVX or compiler optimization** with default values.<br>
+With default settings, stage 8 alone checks an estimated **10 nonillion numbers (2 × 10^31)** with **zero multithreading, SIMD/AVX and little compiler optimization**<br>
 <br>
 **Do not assume that higher stages will finish in a reasonable amount of time.**
 
