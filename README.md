@@ -12,5 +12,9 @@ Tries not to retest what has already been tested.
 ## Warning:
 This program is intentionally stupid.
 Stage 8 alone checks about **10 nonillion numbers (2 × 10^31)** with **zero multithreading, SIMD/AVX or compiler optimization** with default values.
-It still uses `namespace std` for fuck's sake.
-God forbid anyone seriously uses this to actually test conjectures.
+I do not plan to optimize this program in any way whatsoever. Good luck.
+
+## To-do:
+- Add option to zoom in on critical areas of conjecture, adjusting precision if needed.
+- Math lexer/parser (Shunting-yard -> RPN)
+- Actual UI
