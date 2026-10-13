@@ -16,6 +16,7 @@ At the default settings, stage 8 alone checks about **10 nonillion numbers (2 ×
 **Do not assume that higher stages will finish in a reasonable amount of time.**
 
 ## To-do:
-- Add option to zoom in on critical areas of conjecture, adjusting precision if needed.
-- Math lexer/parser (Shunting-yard -> RPN)
-- Actual UI
+- [x] Make the core functions exist (the actual testing and range-adjustment)
+- [ ] Add option to zoom in on critical areas of conjecture, adjusting precision if needed.
+- [ ] Math lexer/parser (Shunting-yard -> RPN)
+- [ ] Actual UI
