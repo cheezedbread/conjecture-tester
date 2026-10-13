@@ -10,9 +10,10 @@ Tries not to retest what has already been tested.
 5. Run with `./brute-force-math`
 
 ## Warning:
-This program is intentionally stupid.
-Stage 8 alone checks about **10 nonillion numbers (2 × 10^31)** with **zero multithreading, SIMD/AVX or compiler optimization** with default values.
-I do not plan to optimize this program in any way whatsoever. Good luck.
+This program uses a deliberately straightforward brute-force approach and is not designed for computational efficiency.<br>
+At the default settings, stage 8 alone checks about **10 nonillion numbers (2 × 10^31)** with **zero multithreading, SIMD/AVX or compiler optimization** with default values.<br>
+<br>
+**Do not assume that higher stages will finish in a reasonable amount of time.**
 
 ## To-do:
 - Add option to zoom in on critical areas of conjecture, adjusting precision if needed.
